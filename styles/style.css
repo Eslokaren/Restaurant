@@ -1,0 +1,23 @@
+/* ***************Menu****************/
+.carousel-caption{
+    margin-bottom: 200px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+.navbar,.navbar-nav,.navbar-brand{
+    border-bottom: white 3px solid;
+}
+.navbar-nav{
+    border-right: teal 3px solid;
+}
+.navbar-brand{
+    border-left:teal 3px solid;
+    font-family: 'Mr De Haviland', cursive;
+}
+.nav-item:hover{
+    border-top: teal 3px solid;
+}
+/* ***************carousel****************/
+.view{
+    height: 100vh;
+    width: 100vw;
+}
