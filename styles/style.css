@@ -21,3 +21,24 @@
     height: 100vh;
     width: 100vw;
 }
+/* ***************Owner****************/
+.seccion-chef{
+    height: 430px;
+}
+.chef-inf{
+    background-color: rgb(247, 243, 243);
+    margin-top:75px;
+    height: 368px;
+}
+h2{
+    font-family: 'Sedgwick Ave', cursive;
+}
+.chef-inf img{
+    width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.chef-inf div{
+    border-left:teal 3px solid;
+}
