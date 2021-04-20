@@ -16,3 +16,14 @@ $(function() {
 });
 
 $('.datepicker').pickadate();
+
+window.onscroll = function() {
+    $menu = document.querySelector('#menu')
+    var y = window.scrollY;
+    if(y>300){
+       $menu.classList.add('bg-dark')
+    }
+    else{
+        $menu.classList.remove('bg-dark')
+    }
+};
